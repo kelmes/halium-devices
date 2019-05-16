@@ -4,13 +4,20 @@
     <remote name="fredldotme" fetch="git://github.com/fredldotme" />
     <remote name="sony" fetch="git://github.com/sonyxperiadev" />
     <remote name="nxp" fetch="git://github.com/NXPNFCProject/" />
+    <remote name="sfos" fetch="git://github.com/sailfishos" />
 
     <remove-project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
     <remove-project path="hardware/qcom/display" name="android_hardware_qcom_display" />
     <remove-project path="system/sepolicy" name="android_system_sepolicy" />
+    <remove-project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" />
+    <remove-project path="halium/libhybris" name="Halium/libhybris" />
+    <remove-project path="halium/audioflingerglue" name="Halium/audioflingerglue" />
+    <remove-project path="build" name="Halium/android_build" />
 
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="kelmes" revision="halium-7.1" />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="kelmes" revision="halium-7.1" />
+    <project path="build" name="Halium/android_build" remote="hal" revision="halium-7.1-ubpsensorsmedia" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="beidl" revision="halium-7.1" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="beidl" revision="halium-7.1" />
+    <project path="external/droidmedia" name="droidmedia" remote="sfos" revision="refs/tags/0.20190307.0" />
 
     <project path="device/sony/kugo" name="device-sony-kugo" revision="n-mr1-ubports" remote="kelmes" />
     <project path="device/sony/loire" name="device-sony-loire" revision="n-mr1-ubports" remote="fredldotme" />
