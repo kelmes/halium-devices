@@ -15,8 +15,8 @@
     <remove-project path="build" name="Halium/android_build" />
 
     <project path="build" name="Halium/android_build" remote="hal" revision="halium-7.1-ubpsensorsmedia" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="beidl" revision="halium-7.1" />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="beidl" revision="halium-7.1" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="fredldotme" revision="halium-7.1" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="fredldotme" revision="halium-7.1" />
     <project path="external/droidmedia" name="droidmedia" remote="sfos" revision="refs/tags/0.20190307.0" />
 
     <project path="device/sony/kugo" name="device-sony-kugo" revision="n-mr1-ubports" remote="kelmes" />
